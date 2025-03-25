@@ -1,0 +1,413 @@
+Resumen,Clave de incidencia,ID de la incidencia,Tipo de Incidencia,Estado,Clave del proyecto,Nombre del proyecto,Tipo de proyecto,Responsable del proyecto,ID del responsable del proyecto,Descripción del proyecto,Prioridad,Resolución,Persona asignada,ID de la persona asignada,Informador,ID del informador,Creador,ID del creador,Creada,Actualizada,Vista por Última Vez,Resuelta,Fecha de vencimiento,Votos,Descripción,Entorno,Interesados,ID de los interesados,Estimación original,Trabajo restante estimado,Tiempo Trabajado,Relación de trabajo,Σ Estimación original,Σ Trabajo restante estimado,Σ Tiempo empleado,Nivel de Seguridad,Enlace a la incidencia interna (Cloners),Enlace a la incidencia interna (Cloners),Enlace de incidencia saliente (Cloners),Adjunto,Adjunto,Adjunto,Campo personalizado (Actual end),Campo personalizado (Actual start),Campo personalizado (Change reason),Campo personalizado (Change risk),Campo personalizado (Change type),Campo personalizado (Epic Color),Campo personalizado (Epic Name),Campo personalizado (Epic Status),Campo personalizado (Formularios abiertos),Campo personalizado (Formularios bloqueados),Campo personalizado (Formularios enviados),Campo personalizado (Impact),Campo personalizado (Issue color),Campo personalizado (Metas),Campo personalizado (Project overview key),Campo personalizado (Project overview status),Campo personalizado (Rank),Campo personalizado (Request Type),Campo personalizado (Sentiment),Campo personalizado (Start date),Campo personalizado (Story Points),Campo personalizado (Story point estimate),Campo personalizado (Target end),Campo personalizado (Target start),Campo personalizado (Team),Campo personalizado (Total de formularios),Campo personalizado (Vulnerability),Campo personalizado ([CHART] Date of First Response),Campo personalizado ([CHART] Time in Status),Campo personalizado (development),Categoría de estado,Categoría de estado cambiada
+"TQP3-23 El botón ""Agregar"" se activa al ingresar valores no válidos.",TQP3-23,10033,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,23/ene/25 4:12 PM,23/ene/25 4:14 PM,23/ene/25 4:12 PM,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar caracteres inválidos en el campo “Número de tarjeta”
+# Ingresar caracteres inválidos en el campo “Código”
+
+*Resultado esperado:* El botón “Agregar” permanece inactivo.
+
+*Resultado obtenido:* El botón “Agregar” permanece activo.
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,TQP3-21,23/ene/25 4:12 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-23 at 4.09.21 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10032,,,,,,,,,,,,,,,,,,,0|i0006v:,,,,,,,,,,,,,,Por hacer,23/ene/25 4:12 PM
+"TQP3-22 El campo ""Número de tarjeta"" Acepta letras no latinas.",TQP3-22,10032,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,23/ene/25 4:08 PM,23/ene/25 4:12 PM,23/ene/25 4:08 PM,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar caracteres no latinos en el campo ""Número de tarjeta"".
+
+*Resultado esperado:* El campo ""Número de tarjeta"" NO acepta caracteres no latinos.
+
+*Resultado obtenido:* El campo ""Número de tarjeta"" SI acepta caracteres no latinos.
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0006n:,,,,,,,,,,,,,,Por hacer,23/ene/25 4:08 PM
+"TQP3-21 El campo ""Código"" Acepta letras no latinas.",TQP3-21,10031,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,23/ene/25 4:07 PM,23/ene/25 4:12 PM,23/ene/25 4:11 PM,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar caracteres no latinos en el campo “Código”.
+
+*Resultado esperado:* El campo ""Código"" NO acepta caracteres no latinos.
+
+*Resultado obtenido:* El campo ""Código"" SI acepta caracteres no latinos.
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,TQP3-23,,,23/ene/25 4:09 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-23 at 4.09.21 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10031,,,,,,,,,,,,,,,,,,,0|i0006f:,,,,,,,,,,,,,,Por hacer,23/ene/25 4:07 PM
+TQP3-20 No aparecen los automóviles en el mapa.,TQP3-20,10030,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,23/ene/25 3:51 PM,23/ene/25 3:58 PM,23/ene/25 3:51 PM,,,0,"*Pasos a seguir:* 
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+
+*Resultado esperado:* Aparecen los automóviles disponibles en el mapa.
+
+*Resultado obtenido:* No aparecen los automóviles disponibles en el mapa en ninguna tarifa.
+
+*Severidad*: Media"," *Google Chrome,* resolución 800,600, versión: 132.0.6834.110 y *Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,23/ene/25 3:57 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-23 at 3.56.14 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10030,23/ene/25 3:57 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-23 at 3.56.24 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10028,23/ene/25 3:57 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-23 at 3.56.33 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10029,,,,,,,,,,,,,,,,,0|i00067:,,,,,,,,,,,,,,Por hacer,23/ene/25 3:51 PM
+TQP3-19 El temporizador se mantiene el 00:01 y no cuenta el tiempo de uso compartido.,TQP3-19,10029,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 7:56 PM,23/ene/25 1:43 PM,23/ene/25 1:43 PM,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Agregar la licencia de conducir.
+# Agregar el método de pago
+# Hacer click en el botón de reserva.
+
+*Resultado esperado:* En el centro de la pantalla aparecerá una ventana con el título ""Automóvil reservado"". En su interior se encuentra la marca, número de placa, ícono y dirección del vehículo, así como el precio del trayecto por minuto y el temporizador que muestra el tiempo de espera gratuito.
+
+En cuanto el tiempo de espera gratuito se agote, el temporizador comenzará a contar el tiempo de uso compartido del vehículo.
+
+*Resultado obtenido:* En el centro de la pantalla aparecerá una ventana con el título ""Automóvil reservado"". En su interior se encuentra la marca, número de placa, ícono y dirección del vehículo, así como el precio del trayecto por minuto y el temporizador que muestra el tiempo de espera gratuito.
+
+El temporizador se llega al 00:01 y se mantiene en ese estado. No cuenta el tiempo de uso compartido.
+
+*Severidad*: Crítica.","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,22/ene/25 7:58 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 1.48.17 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10027,,,,,,,,,,,,,,,,,,,0|i0005z:,,,,,,,,,,,,,,Por hacer,22/ene/25 7:56 PM
+TQP3-18 No funciona el botón cancelar.,TQP3-18,10028,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 7:35 PM,23/ene/25 1:43 PM,23/ene/25 1:43 PM,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Agregar la licencia de conducir.
+# Agregar el método de pago
+# Hacer click en el botón de reserva.
+# Hacer click en el botón cancelar.
+
+*Resultado esperado:* En el centro de la pantalla aparecerá una ventana con el título ""Automóvil reservado"". En su interior se encuentra la marca, número de placa, ícono y dirección del vehículo, así como el precio del trayecto por minuto y el temporizador que muestra el tiempo de espera gratuito.
+
+El usuario puede cancelar el viaje cancelar el viaje de forma gratuita.
+
+*Resultado obtenido:* En el centro de la pantalla aparecerá una ventana con el título ""Automóvil reservado"". En su interior se encuentra la marca, número de placa, ícono y dirección del vehículo, así como el precio del trayecto por minuto y el temporizador que muestra el tiempo de espera gratuito.
+
+El botón cancelar no funciona, no hace nada. El usuario NO puede cancelar el viaje cancelar el viaje.
+
+*Severidad*: Crítica.","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0005r:,,,,,,,,,,,,,,Por hacer,22/ene/25 7:35 PM
+TQP3-17 No se puede reservar el viaje al completar los campos obligatorios y borrar las direcciones.,TQP3-17,10027,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 7:31 PM,23/ene/25 1:43 PM,23/ene/25 1:43 PM,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Agregar la licencia de conducir.
+# Agregar el método de pago
+# Borrar las direcciones.
+
+*Resultado esperado:* En el centro de la pantalla aparecerá una ventana con el título ""Automóvil reservado"". En su interior se encuentra la marca, número de placa, ícono y dirección del vehículo, así como el precio del trayecto por minuto y el temporizador que muestra el tiempo de espera gratuito.
+
+*Resultado obtenido:* El botón desaparece. La aplicacion nos indica que se agregan las direcciones e regresa al punto de inicio de la aplicacion. No se puede reservar el viaje.
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,TQP3-15,22/ene/25 7:31 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 1.49.26 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10025,,,,,,,,,,,,,,,,,,,0|i0005j:,,,,,,,,,,,,,,Por hacer,22/ene/25 7:31 PM
+"TQP3-16 El botón ""Reserva"" no aparece al no completar los campos obligatorios y borrar las direcciones.",TQP3-16,10026,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 7:23 PM,23/ene/25 1:43 PM,23/ene/25 1:43 PM,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Borrar las direcciones.
+
+*Resultado esperado:* El botón para reservar muestra el siguiente texto: ""Agregar direcciones y reservar""
+
+*Resultado obtenido:* El botón desaparece. La aplicacion nos indica que se agregan las direcciones e regresa al punto de inicio de la aplicacion.
+
+*Severidad*: Alta","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,TQP3-15,,,,,,,,,,,,,,,,,,,,0|i0005b:,,,,,,,,,,,,,,Por hacer,22/ene/25 7:23 PM
+"TQP3-15 El botón ""Reserva"" desaparece al completar los campos obligatorios y borrar las direcciones",TQP3-15,10025,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 7:18 PM,23/ene/25 1:43 PM,23/ene/25 1:43 PM,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Agregar la licencia de conducir.
+# Agregar el método de pago
+# Borrar las direcciones.
+
+*Resultado esperado:* Aparece el botón ""Agregar direcciones y reservar.
+
+*Resultado obtenido:* El botón desaparece. La aplicacion nos indica que se agregan las direcciones e regresa al punto de inicio de la aplicacion y no se puede reservar el viaje.
+
+*Severidad*: Alta.","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,TQP3-16,TQP3-17,,22/ene/25 7:22 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 1.49.26 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10024,,,,,,,,,,,,,,,,,,,0|i00053:,,,,,,,,,,,,,,Por hacer,22/ene/25 7:18 PM
+"TQP3-14 El DISEÑO del botón de reserva se desborda al completar todos los campos y direcciones requeridos, excepto el de método de pago.",TQP3-14,10024,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 7:09 PM,23/ene/25 1:43 PM,23/ene/25 1:42 PM,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Agregar la licencia de conducir.
+
+*Resultado esperado:* El botón muestra el siguiente texto: ""Agregar método de pago y reservar” El recorrido será de ... kilómetros y se hará en ... minutos. 
+
+Debería aparecer con siguiente diseño: 
+
+!Screenshot 2025-01-22 at 7.10.32 p.m..png|width=404,height=123,alt=""Screenshot 2025-01-22 at 7.10.32 p.m..png""!
+
+*Resultado obtenido:* El botón muestra el siguiente texto: ""Agregar método de pago y reservar” El recorrido será de ... kilómetros y se hará en ... minutos.
+
+El diseño se del botón no se ajusta al texto y se corta:
+
+!Screenshot 2025-01-22 at 7.12.39 p.m..png|width=373,height=80,alt=""Screenshot 2025-01-22 at 7.12.39 p.m..png""!
+
+
+
+*Severidad*: Alta","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,22/ene/25 7:13 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 7.10.32 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10020,22/ene/25 7:13 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 7.12.39 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10021,,,,,,,,,,,,,,,,,,0|i0004v:,,,,,,,,,,,,,,Por hacer,22/ene/25 7:09 PM
+"TQP3-13 El DISEÑO del botón de reserva se desborda al completar todos los campos y direcciones requeridos, excepto el de la licencia de conducir.",TQP3-13,10023,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 7:02 PM,23/ene/25 1:42 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Agregar el método de pago.
+
+*Resultado esperado:* El botón muestra el siguiente texto: ""Agregar licencia de conducir y reservar” El recorrido será de ... kilómetros y se hará en ... minutos. 
+
+Debería aparecer con siguiente diseño: 
+
+!Screenshot 2025-01-22 at 7.06.57 p.m..png|width=403,height=98,alt=""Screenshot 2025-01-22 at 7.06.57 p.m..png""!
+
+*Resultado obtenido:* El botón muestra el siguiente texto: ""Agregar licencia de conducir y reservar” El recorrido será de ... kilómetros y se hará en ... minutos.
+
+El diseño se del botón no se ajusta al texto y se corta:
+
+
+
+!Screenshot 2025-01-22 at 7.07.58 p.m..png|width=369,height=67,alt=""Screenshot 2025-01-22 at 7.07.58 p.m..png""!
+
+
+
+
+
+*Severidad*: Alta","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,TQP3-12,22/ene/25 7:08 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 7.06.57 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10016,22/ene/25 7:08 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 7.07.58 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10017,,,,,,,,,,,,,,,,,,0|i0004n:,,,,,,,,,,,,,,Por hacer,22/ene/25 7:02 PM
+"TQP3-12 Es posible agregar más de 2 caracteres en el campo ""Código""",TQP3-12,10022,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 5:49 PM,23/ene/25 1:42 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar 3 caracteres en el campo “Código”.
+
+*Resultado esperado:* Es imposible agregar más de 2 caracteres en el campo ""Código""
+
+*Resultado obtenido:* Es posible agregar más de 2 caracteres en el campo ""Código""
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,TQP3-13,,,22/ene/25 5:54 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 5.53.59 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10015,,,,,,,,,,,,,,,,,,,0|i0004f:,,,,,,,,,,,,,,Por hacer,22/ene/25 5:49 PM
+"TQP3-11 El campo ""Código"" permanece activo al ingresar menos de 2 caracteres.",TQP3-11,10021,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 5:45 PM,23/ene/25 1:42 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar “123412341234” en el campo “Número de tarjeta”.
+# Ingresar de 1 caracter en el campo “Código.
+
+*Resultado esperado:* El botón ""Agregar tarjeta"" permanece INACTIVO.
+
+*Resultado obtenido:* El botón ""Agregar tarjeta"" permanece ACTIVO.
+
+*Severidad*: Alta","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,22/ene/25 5:48 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 5.48.34 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10014,,,,,,,,,,,,,,,,,,,0|i00047:,,,,,,,,,,,,,,Por hacer,22/ene/25 5:45 PM
+"TQP3-10 El campo ""Código"" Acepta ingresar ""00"".",TQP3-10,10020,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 5:42 PM,23/ene/25 1:42 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar “00” en el campo “Código”.
+
+*Resultado esperado:* El campo ""Código"" NO acepta ingresar “00”.
+
+*Resultado obtenido:* El campo ""Código"" SI acepta ingresar “00”.
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,22/ene/25 5:44 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 5.44.09 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10013,,,,,,,,,,,,,,,,,,,0|i0003z:,,,,,,,,,,,,,,Por hacer,22/ene/25 5:42 PM
+"TQP3-9 El campo ""Código"" Acepta caracteres especiales.",TQP3-9,10019,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 5:39 PM,23/ene/25 4:08 PM,23/ene/25 4:07 PM,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar caracteres especiales en el campo “Código”.
+
+*Resultado esperado:* El campo ""Código"" NO acepta caracteres especiales.
+
+*Resultado obtenido:* El campo ""Código"" SI acepta caracteres especiales.
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,22/ene/25 5:40 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 5.40.09 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10012,,,,,,,,,,,,,,,,,,,0|i0003r:,,,,,,,,,,,,,,Por hacer,22/ene/25 5:39 PM
+"TQP3-8 El campo ""Código"" Acepta letras",TQP3-8,10018,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 5:38 PM,23/ene/25 1:42 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar letras en el campo “Número de tarjeta”.
+
+*Resultado esperado:* El campo ""Código"" NO acepta letras.
+
+*Resultado obtenido:* El campo ""Código"" SI acepta letras.
+
+*Severidad*: Alta","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,TQP3-3,22/ene/25 5:38 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 5.38.52 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10011,,,,,,,,,,,,,,,,,,,0|i0003j:,,,,,,,,,,,,,,Por hacer,22/ene/25 5:38 PM
+"TQP3-7 No se añaden los espacios al quitar el foco en el campo ""Número de tarjeta""",TQP3-7,10017,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 2:46 PM,23/ene/25 1:41 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar de 12 caracteres en el campo “Número de tarjeta”.
+# Quitar el foco del campo “Número de tarjeta”
+
+*Resultado esperado:* Se añaden los espacios automáticamente.
+
+*Resultado obtenido:* NO se añaden los espacios automáticamente.
+
+*Severidad*: Baja","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,TQP3-6,22/ene/25 2:48 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 2.48.34 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10010,,,,,,,,,,,,,,,,,,,0|i0003b:,,,,,,,,,,,,,,Por hacer,22/ene/25 2:46 PM
+"TQP3-6 El campo ""Número de tarjeta"" Acepta más de 12 caracteres.",TQP3-6,10016,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 2:42 PM,23/ene/25 1:41 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar de 14 caracteres en el campo “Número de tarjeta”.
+
+*Resultado esperado:* NO es posible introducir más de 12 caracteres en el campo ""Campo número de tarjeta"".
+
+*Resultado obtenido:* SI es posible introducir más de 12 caracteres en el campo ""Campo número de tarjeta"".
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,TQP3-7,,,22/ene/25 2:44 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 2.44.07 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10009,,,,,,,,,,,,,,,,,,,0|i00033:,,,,,,,,,,,,,,Por hacer,22/ene/25 2:42 PM
+"TQP3-5 El campo ""Número de tarjeta"" Acepta menos de 12 caracteres.",TQP3-5,10015,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 2:36 PM,23/ene/25 1:41 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar de 9 caracteres en el campo “Número de tarjeta”.
+
+*Resultado esperado:* El campo ""Campo número de tarjeta"" NO acepta menos de 12 caracteres.
+
+*Resultado obtenido:* El campo ""Campo número de tarjeta"" SI acepta menos de 12 caracteres.
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,22/ene/25 2:41 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 2.30.57 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10008,,,,,,,,,,,,,,,,,,,0|i0002v:,,,,,,,,,,,,,,Por hacer,22/ene/25 2:36 PM
+"TQP3-4 El campo ""Número de tarjeta"" Acepta caracteres especiales.",TQP3-4,10014,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 2:32 PM,23/ene/25 1:41 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar caracteres especiales en el campo “Número de tarjeta”.
+
+*Resultado esperado:* El campo ""Campo número de tarjeta"" NO acepta caracteres especiales.
+
+*Resultado obtenido:* El campo ""Campo número de tarjeta"" SI acepta caracteres especiales.
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,22/ene/25 2:37 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 2.37.14 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10007,,,,,,,,,,,,,,,,,,,0|i0002n:,,,,,,,,,,,,,,Por hacer,22/ene/25 2:32 PM
+"TQP3-3 El campo ""Número de tarjeta"" Acepta letras",TQP3-3,10013,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 2:31 PM,23/ene/25 1:40 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+# Hacer click en el botón “Método de pago”.
+# Hacer click en el botón “Agregar tarjeta”
+# Ingresar letras en el campo “Número de tarjeta”.
+
+*Resultado esperado:* El campo ""Campo número de tarjeta"" NO acepta letras.
+
+*Resultado obtenido:* El campo ""Campo número de tarjeta"" SI acepta letras.
+
+*Severidad*: Crítica","*Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,TQP3-8,,,22/ene/25 2:31 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-01-22 at 2.30.57 p.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10005,,,,,,,,,,,,,,,,,,,0|i0002f:,,,,,,,,,,,,,,Por hacer,22/ene/25 2:31 PM
+TQP3-2 Los automóviles disponibles no se visualizan en el mapa como íconos.,TQP3-2,10012,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 2:24 PM,23/ene/25 1:40 PM,,,,0,"*Pasos a seguir:*
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón Reservar
+
+*Resultado esperado:* Los automóviles disponibles se visualizan en el mapa como íconos.
+
+*Resultado obtenido:* Los automóviles disponibles NO se visualizan en el mapa.
+
+*Severidad*: Media","*Google Chrome,* resolución 800,600, versión: 132.0.6834.110 y *Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00027:,,,,,,,,,,,,,,Por hacer,22/ene/25 2:24 PM
+TQP3-1 No aparece el icono del automóvil más cercano en el mapa.,TQP3-1,10011,Error,Tareas por hacer,TQP3,TripleTen QA Project 3,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,22/ene/25 2:19 PM,23/ene/25 3:57 PM,31/ene/25 10:00 PM,,,0,"*Pasos a seguir:* 
+
+# Ir al banco de pruebas
+# Ingresar ""1917 Bay St"" en el campo Desde
+# Ingresar ""615 S Broadway"" en el campo Hasta
+# Elegir el modo Personal
+# Elegir Automóvil compartido como el tipo de transporte
+# Hacer clic en el botón ""Reservar"".
+
+*Resultado esperado:* El ícono del automóvil más cercano en el mapa se hace más grande y aparece el recuadro negro con la marca del automóvil sobre el ícono.
+
+*Resultado obtenido:* No aparece el ícono del automóvil ni recuadro negro en el mapa.
+
+*Severidad*: Media"," *Google Chrome,* resolución 800,600, versión: 132.0.6834.110 y *Firefox*, resolución 1920x1080, versión 132.0.6834.110.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001z:,,,,,,,,,,,,,,Por hacer,22/ene/25 2:19 PM
