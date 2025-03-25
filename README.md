@@ -28,7 +28,7 @@ Las pruebas incluyeron la evaluación del diseño, la usabilidad y la lógica fu
 
 ## 📂 Contenido del Repositorio  
 
-📄 `Josué Tenorio-3er. sprint.xlsx` → Archivo de Excel con:  
+📄 `Josué Tenorio - Sprint 3.xlsx` → Archivo de Excel con:  
    - **"1. Lista de comprobación del diseño"** → Evaluación del diseño del formulario de reserva.  
    - **"2. Lista de comprobación de 'Método de pago' y 'Agregar tarjeta'"** → Validaciones de pago.  
    - **"3. Casos de prueba para el botón 'Reservar'"** → Escenarios positivos y negativos.  
