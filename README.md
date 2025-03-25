@@ -37,4 +37,6 @@ Las pruebas incluyeron la evaluación del diseño, la usabilidad y la lógica fu
 
 🐞📄 `Josué Tenorio - Informe_de_Errores_Sprint3.csv` → Archivo CSV con los informes de errores generados en Jira, detallando los errores encontrados durante las pruebas.
 
+📝 `Feedback Sprint 3.png` → Captura del feedback recibido en la revisión del sprint.
+
 📜 `README.md` → Este archivo con la descripción del proyecto.
